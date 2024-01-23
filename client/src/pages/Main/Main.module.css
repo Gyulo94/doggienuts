@@ -1,0 +1,50 @@
+.mainBg img {
+  width: 100%;
+}
+
+.section01 img {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: block;
+}
+
+.sectionText01 {
+  position: absolute;
+  top: 1220px;
+  /* left: 370px; */
+  left: -100px;
+  animation: slide 1s ease-out;
+}
+
+.sectionText01 h2 {
+  color: #5a5a5a;
+}
+.sectionText01 div {
+  color: #656565;
+  font-size: 20px;
+}
+.sectionText01 span {
+  color: #ff7124;
+}
+
+@keyframes slide {
+  from {
+    left: -100px;
+    opacity: 0;
+  }
+
+  to {
+    left: 370px;
+    opacity: 1;
+  }
+}
+@keyframes disapper {
+  from {
+    left: 370px;
+    opacity: 1;
+  }
+  to {
+    left: -100px;
+    opacity: 0;
+  }
+}
